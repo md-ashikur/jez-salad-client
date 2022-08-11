@@ -1,0 +1,9 @@
+.scroll-to-top{
+    background-color: #FB9333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    z-index: 50;
+}
