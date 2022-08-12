@@ -32,7 +32,7 @@ const Home = () => {
             Imagine you don't need a diet because we provide<br></br> healthy and
             delicious food for you!
           </p>
-          <button class="btn btn-primary text-white rounded-full">
+          <button class="btn btn-primary text-xl text-white rounded-full">
             Order Food
           </button>
           <div className="grid lg:grid-cols-5 grid-cols-3 gap-4 my-10 ">
