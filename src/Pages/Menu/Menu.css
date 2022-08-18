@@ -1,6 +1,6 @@
 .menuBg{
     background-image: url(../../Images/image.png);
   background-size: cover;
- 
-    height: 50vh;
+ position: relative;
+    height: 60vh;
 }

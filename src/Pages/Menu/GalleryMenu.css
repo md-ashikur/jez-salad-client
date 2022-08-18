@@ -1,0 +1,33 @@
+.menu-btn{
+    border-radius: 9999px;
+    border: 1px solid #FB9333;
+    padding: 0.5rem 1.25rem;
+    
+}
+.menu-btn:hover{
+    background-color: #FB9333;
+color: white;
+}
+
+.card-btn{
+    visibility : hidden;
+    transition : 0.3s ease-in-out;
+    
+    border: none;
+    opacity : 0;
+}
+.card:hover .card-btn{
+    visibility : visible;
+    margin-top : 100px;
+    color: white;
+    opacity : 1;
+    background-color: #FB9333;
+}
+.card-img{
+    transition : 0.5s ease-in-out;
+}
+.card:hover .card-img{
+    transform: scale(1.3);
+    
+   
+}

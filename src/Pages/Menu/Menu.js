@@ -4,6 +4,7 @@ import delivery from "../../Images/delivery.png"
 import d2 from "../../Images/d2.png"
 import d3 from "../../Images/d3.png"
 import "./Menu.css";
+import GalleryMenu from "./GalleryMenu";
 
 const Menu = () => {
   return (
@@ -24,6 +25,11 @@ const Menu = () => {
           <img src={menuImg1} alt="" className="img-responsive" />
         </div>
       </div>
+
+      {/* ================
+      Gallery Menu
+      =================== */}
+      <GalleryMenu></GalleryMenu>
 
       <div className="grid grid-cols-2 my-20 px-20 menuBg overflow-hidden">
         <div className="py-20">
