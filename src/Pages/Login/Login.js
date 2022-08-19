@@ -12,12 +12,13 @@ const Login = () => {
     <div className="loginBg flex justify-center items-center">
       <div className="lg:w-3/4  relative bg-accent rounded-[26px] mt-16">
         <div className="grid lg:grid-cols-3 ">
-          <div className="">
-            <h2 className="lg:text-7xl text-5xl text-primary uppercase font-bold relative -top-5 lg:top-16 left-5 z-52 py-16 lg:py-0">Eat <br></br>Healthy</h2>
+          <div>
+            <h2 className="lg:text-7xl text-5xl text-primary uppercase font-bold relative -top-5 lg:top-16 left-5 z-52 py-16 lg:py-0">
+              STAY <br></br>Healthy</h2>
             <img
               src={salad2}
               alt=""
-              className="w-[480px] z-50 absolute lg:-left-10 top-32 lg:top-48"
+              className="w-[480px] z-40 absolute lg:-left-10 top-32 lg:top-48"
             />
           </div>
 

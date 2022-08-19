@@ -10,14 +10,15 @@ const SignUp = () => {
 
   return (
     <div className="signBg flex justify-center items-center py-10">
-      <div className="w-3/4  relative bg-accent rounded-[26px] mt-16">
+      <div className="lg:w-3/4  relative bg-accent rounded-[26px] mt-16 mx-3">
         <div className="grid lg:grid-cols-3 ">
-          <div className="">
-          <h2 className="lg:text-7xl text-5xl text-primary uppercase font-bold relative -top-5 lg:top-16 left-5 z-52 py-16 lg:py-0">ENJOY FRESH <br></br>Healthy SALAD</h2>
+          <div>
+          <h2 className="lg:text-7xl text-5xl w-3/4  text-primary uppercase font-bold relative -top-5 lg:top-16 left-5 z-52 py-16 lg:py-0">
+              EAT FRESH  <br></br>FOOD</h2>
             <img
               src={salad1}
               alt=""
-              className="lg:min-w-[380px] w-[220px] z-50 absolute lg:left-2 left-7 lg:top-72 top-52"
+              className="lg:min-w-[380px] w-[220px] z-40 absolute lg:left-2 left-16 lg:top-72 top-28"
             />
           </div>
 

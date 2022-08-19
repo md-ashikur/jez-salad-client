@@ -16,6 +16,10 @@ color: white;
     border: none;
     opacity : 0;
 }
+.card:hover{
+    background-color: #fff3e8e4;
+    
+}
 .card:hover .card-btn{
     visibility : visible;
     margin-top : 100px;

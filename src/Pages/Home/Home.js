@@ -93,7 +93,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="grid lg:grid-cols-2 gap-2 lg:mx-20 mt-72 text-secondary">
+      <div class="grid lg:grid-cols-2 gap-2 lg:mx-20 lg:mt-40 mt-80 text-secondary">
         <div>
           <h2 className="px-2 text-secondary lg:text-5xl text-3xl font-bold">
             WHY CHOOSE US <br></br> FOR

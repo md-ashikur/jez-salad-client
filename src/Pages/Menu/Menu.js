@@ -9,12 +9,12 @@ import GalleryMenu from "./GalleryMenu";
 const Menu = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 my-20 mx-20">
+      <div className="grid lg:grid-cols-2 my-20 lg:mx-20 mx-5">
         <div className="py-20">
-          <p className="font-bold text-lg bg-primary w-80 px-5">
+          <p className="font-bold text-lg bg-primary text-white w-80 px-5">
             Free Home Delivery 24 Hours
           </p>
-          <h1 className="text-6xl font-extrabold uppercase font-sans">
+          <h1 className="lg:text-6xl text-4xl font-extrabold uppercase font-sans">
             ENJOY Healthy FOOD With Jez Salad!
           </h1>
           <button class="btn btn-primary text-xl my-3 text-white px-5 rounded-full">
@@ -31,9 +31,9 @@ const Menu = () => {
       =================== */}
       <GalleryMenu></GalleryMenu>
 
-      <div className="grid grid-cols-2 my-20 px-20 menuBg overflow-hidden">
+      <div className="grid lg:grid-cols-2 my-20 lg:px-20 px-5 menuBg overflow-hidden">
         <div className="py-20">
-          <h1 className="text-6xl font-bold font-sansm text-white  uppercase">
+          <h1 className="lg:text-6xl text-4xl font-bold font-sansm text-white  uppercase">
             We Have Excellent Of Quality Food
           </h1>
           <button class="btn btn-primary text-lg my-3 text-white px-10 rounded-full">
@@ -48,13 +48,13 @@ const Menu = () => {
       {/* =============
             free delivery=
             ========================== */}
-      <div className="grid grid-cols-3 my-20 mx-20 bg-primary rounded-bl-[50px] rounded-tr-[50px]">
+      <div className="grid lg:grid-cols-3 lg:my-20 my-28 lg:mx-20 bg-primary rounded-bl-[50px] rounded-tr-[50px]">
         <div className="flex items-center justify-center relative">
-            <img src={delivery} alt="" className="w-52 absolute z-20"/>
-            <img src={d2} alt="" className="w-52 absolute"/>
-            <img src={d3} alt="" className="w-52 absolute"/>
+            <img src={delivery} alt="" className="lg:w-72 w-52 absolute lg:-top-10 z-20"/>
+ 
+            <img src={d3} alt="" className="w-32 absolute lg:left-2 left-5 lg:top-16 "/>
         </div>
-        <div className="py-20 text-white">
+        <div className="lg:py-20 pt-28 px-5 text-white ">
           <h1 className="text-4xl font-bold font-sans uppercase">
           Get Free Delivery!
           </h1>

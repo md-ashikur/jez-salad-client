@@ -2,9 +2,8 @@ import React from "react";
 import cardPic1 from "../../Images/Group 8443.png";
 import cardPic2 from "../../Images/Group 8444.png";
 import cardPic3 from "../../Images/Group 8445.png";
-import rightArrow from "../../Images/Arrow - Right.png";
 import { Link } from "react-router-dom";
-
+import { BsArrowRight  } from 'react-icons/bs';
 const Cards = () => {
   return (
     <div>
@@ -21,8 +20,8 @@ const Cards = () => {
             </p>
             <div className="mt-4 ">
             <Link to="" >
-               <button className="flex hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
-                <img src={rightArrow} alt="" className="w-6 mx-3"></img></button>
+            <button className="flex items-center hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
+                 <BsArrowRight className="mx-2"/> </button>
               </Link>
             </div>
           </div>
@@ -41,8 +40,8 @@ const Cards = () => {
             </p>
             <div className="mt-4 ">
               <Link to="" >
-               <button className="flex hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
-                <img src={rightArrow} alt="" className="w-6 mx-3"></img></button>
+              <button className="flex items-center hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
+                 <BsArrowRight className="mx-2"/> </button>
               </Link>
             </div>
           </div>
@@ -61,8 +60,8 @@ const Cards = () => {
             </p>
             <div className="mt-4 ">
             <Link to="" >
-               <button className="flex hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
-                <img src={rightArrow} alt="" className="w-6 mx-3"></img></button>
+               <button className="flex items-center hover:bg-primary hover:text-white px-10 py-2 hover:px-10 hover:py-2 hover:rounded-full"> Learn more
+                 <BsArrowRight className="mx-2"/> </button>
               </Link>
             </div>
           </div>
