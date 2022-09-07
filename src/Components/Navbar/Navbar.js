@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar lg:bg-transparent bg-base-100 lg:px-20 lg:pt-5 z-50 fixed top-0">
+      <div className="navbar lg:bg-white bg-base-100 lg:px-20 lg:pt-5 z-50 fixed top-0">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabindex="0" className="btn btn-ghost lg:hidden">

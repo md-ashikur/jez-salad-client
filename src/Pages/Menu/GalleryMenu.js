@@ -4,13 +4,13 @@ import Menulist from "./Menulist";
 
 const GalleryMenu = () => {
   const [menuCards, setMenuCards] = useState(Menulist);
-  const [active, setActive] = useState(false);
+
   const filterItem = (cateItem) => {
     const updatesCards = Menulist.filter((currentElem) => {
       return currentElem.category === cateItem;
     });
     setMenuCards(updatesCards);
-    setActive(true);
+ 
   };
 
 

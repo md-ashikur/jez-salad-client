@@ -1,6 +1,7 @@
 .scroll-to-top{
-    background-color: #FB9333;
-    border-radius: 50%;
+    background-color: #FB9333 !important;
+    color: white;
+    border-radius: 50% !important;
     display: flex;
     justify-content: center;
     align-items: center;
