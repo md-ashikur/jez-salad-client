@@ -1,7 +1,6 @@
 import React from "react";
 import menuImg1 from "../../Images/menu1.png";
 import delivery from "../../Images/delivery.png"
-import d2 from "../../Images/d2.png"
 import d3 from "../../Images/d3.png"
 import "./Menu.css";
 import GalleryMenu from "./GalleryMenu";
