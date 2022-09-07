@@ -29,7 +29,7 @@ const GalleryMenu = () => {
         <div className="menu-tab grid grid-cols-3 lg:grid-cols-5  gap-3 my-5 ">
           <button
           
-            className={active ? "menu-btn" : "menu-btn text-primary"}
+            className="menu-btn shadow-lg"
             onClick={() => setMenuCards(Menulist)}
           >
             All
