@@ -11,8 +11,8 @@ import discountPic1 from "../../Images/top-view-fruity-salad-with-fresh-sliced-f
 import discountPic3 from "../../Images/front-view-creamy-avocados-with-sliced-peppers-bread-pieces-grey-space 1.png";
 import discountPic2 from "../../Images/front-view-vegetable-salad-from-boiled-vegetables-mixed-inside-round-plate-dark-background 1.png";
 import Cards from "./Cards";
-import Carousel from "./Carousel";
 import CountUp from "react-countup";
+import Testimonial from "./Testimonial";
 
 const Home = () => {
   return (
@@ -93,19 +93,19 @@ const Home = () => {
         </div>
       </div>
 
-      <div class="grid lg:grid-cols-2 gap-2 lg:mx-20 lg:mt-40 mt-80 text-secondary">
-        <div>
+      <div class="grid lg:grid-cols-5 gap-2 lg:mx-20 lg:mt-40 mt-80 text-secondary">
+        <div className="lg:col-span-3">
           <h2 className="px-2 text-secondary lg:text-5xl text-3xl font-bold">
             WHY CHOOSE US <br></br> FOR
             <span className="text-primary "> YOUR HEALTHY FOOD</span>
           </h2>
         </div>
 
-        <div className="flex justify-center items-center font-sm">
+        <div className="lg:col-span-2 flex justify-center items-center text-xl px-3">
           <p>
-            We continue to consistently choose <br></br> maintain the quality of
+            We continue to consistently choose maintain the quality of
             the fruit served, so that
-            <br /> it remains fresh and nutritious when you eat it.
+            it remains fresh and nutritious when you eat it.
           </p>
         </div>
       </div>
@@ -116,9 +116,9 @@ const Home = () => {
       <Cards></Cards>
 
       {/* ==========
-      carousel
+      Testimonial
       ============================== */}
-      <Carousel></Carousel>
+      <Testimonial/>
 
       {/*=======================
  discount section
@@ -164,7 +164,7 @@ const Home = () => {
      Subscribe
      ============================ */}
 
-      <div className="max-w-[1170px] p-16 text-center relative  text-secondary rounded-[50px] my-28 mx-auto bg-accent">
+      <div className="max-w-[1170px] lg:p-16 p-10 text-center relative  text-secondary lg:rounded-[50px] my-28 mx-auto bg-accent overflow-hidden">
         <img
           src={pic8}
           alt=""

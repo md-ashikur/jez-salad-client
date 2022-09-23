@@ -100,4 +100,4 @@ const Menulist = [
       "small_price": "$62.08"
     }
   ]
-  export default Menulist
+  export default Menulist;

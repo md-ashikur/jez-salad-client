@@ -12,19 +12,13 @@ const GalleryMenu = () => {
     setMenuCards(updatesCards);
  
   };
-
-
-  
   return (
     <>
       <h2 className="lg:text-5xl text-3xl font-bold font-sans text-center">
         We Offer People Best Way<br></br>
         To Eat Best Food
       </h2>
-
       <div className="flex justify-center mx-3">
-
-      
 
         <div className="menu-tab grid grid-cols-3 lg:grid-cols-5  gap-3 my-5 ">
           <button

@@ -1,8 +1,7 @@
 import React from "react";
-import "./GotoTop.css";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
-import ScrollToTop from "react-scroll-to-top";
+
 
 const GotoTop = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -29,10 +28,10 @@ const GotoTop = () => {
   }, []);
 
   return (
-    <div >
+    <div>
         {isVisible && (
-        <AiOutlineArrowUp
-        className="animate-bounce font-5xl scroll-to-top"
+        <BsFillArrowUpCircleFill
+        className="animate-bounce text-4xl fixed bottom-10 right-10 text-primary z-50"
         onClick={goToTop}
       />)}
       
